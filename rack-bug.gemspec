@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wireframe-rack-bug}
-  s.version = "0.3.1"
+  s.version = "0.3.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bryan Helmkamp", "Ryan Sonnek"]
@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
     "lib/rack/bug/panels/active_record_panel/activerecord_extensions.rb",
     "lib/rack/bug/panels/cache_panel.rb",
     "lib/rack/bug/panels/cache_panel/memcache_extension.rb",
+    "lib/rack/bug/panels/cache_panel/dalli_extension.rb",
     "lib/rack/bug/panels/cache_panel/panel_app.rb",
     "lib/rack/bug/panels/cache_panel/stats.rb",
     "lib/rack/bug/panels/log_panel.rb",
